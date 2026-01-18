@@ -1,16 +1,25 @@
-.container {
-    display:grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    gap: 20px;
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
 }
 
-.coluna {
-    background: lightgray;
-    padding: 20px;
-    border-radius: 8px;
+.grid-top {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; /* proporções 1-2-1 */
+  gap: 10px; /* espaço entre colunas */
+  margin-bottom: 20px; /* espaço abaixo do primeiro grid */
 }
 
-.destaque {
-    background: white;
-    border: 2px solid #333333;
+.grid-bottom {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; /* mesmo padrão */
+  gap: 10px;
+}
+
+.grid-top div,
+.grid-bottom div {
+  background-color: #e0e0e0;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
 }
