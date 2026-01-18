@@ -1,18 +1,16 @@
-#titulo-principal {
-    color: #00ff0d;
-}
-h1 {
-    color: #ffae00; /* Cor escolhida para o h1 é Azul */
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center; /* O alinhamento do texto do h1 será centralizado */
+.container {
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
 }
 
-h3 {
-    color: #ff0044;
-    font-family: Arial, Helvetica, sans-serif;
+.coluna {
+    background: lightgray;
+    padding: 20px;
+    border-radius: 8px;
 }
 
-h3.destaque {
-    color:#ffae00;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.destaque {
+    background: white;
+    border: 2px solid #333333;
 }
