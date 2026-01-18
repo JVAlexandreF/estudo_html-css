@@ -1,15 +1,18 @@
+#titulo-principal {
+    color: #00ff0d;
+}
 h1 {
     color: #ffae00; /* Cor escolhida para o h1 é Azul */
     font-family: Arial, Helvetica, sans-serif;
     text-align: center; /* O alinhamento do texto do h1 será centralizado */
 }
 
-h2 {
+h3 {
     color: #ff0044;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h2.destaque {
+h3.destaque {
     color:#ffae00;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
