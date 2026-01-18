@@ -1,0 +1,6 @@
+h1 {
+    color: blue; /* Cor escolhida para o h1 é Azul */
+    font-size: 36px; /* O tamanho da Fonte é 36 pixeis */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; /* O alinhamento do texto do h1 será centralizado */
+}
