@@ -1,3 +1,8 @@
+p {
+  font-size: 60px;
+  color:blue;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
